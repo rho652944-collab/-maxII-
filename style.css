@@ -1,0 +1,40 @@
+#intiface-safe-sequence-drawer .if-body { padding: 10px; }
+#intiface-safe-sequence-drawer .if-section {
+    background: rgba(0,0,0,.15); border: 1px solid rgba(255,255,255,.07);
+    border-radius: 8px; padding: 12px; margin-bottom: 12px;
+}
+#intiface-safe-sequence-drawer .if-section-title {
+    font-size: 13px; font-weight: 600; margin-bottom: 10px; opacity: .9;
+}
+#intiface-safe-sequence-drawer .if-connection-row {
+    display:flex; align-items:center; gap:8px; margin-bottom:10px;
+}
+#intiface-safe-sequence-drawer .if-status-dot {
+    width:10px; height:10px; border-radius:50%; background:#ef4444;
+}
+#intiface-safe-sequence-drawer .if-status-text { font-size:14px; font-weight:600; }
+#intiface-safe-sequence-drawer .if-input {
+    width:100%; box-sizing:border-box; padding:9px 10px; margin-bottom:10px;
+    color:inherit; background:rgba(0,0,0,.2); border:1px solid rgba(255,255,255,.15);
+    border-radius:6px;
+}
+#intiface-safe-sequence-drawer .if-btn-group { display:flex; gap:8px; }
+#intiface-safe-sequence-drawer .if-btn {
+    flex:1; border:0; border-radius:6px; padding:9px 10px; cursor:pointer;
+    font-weight:600; color:#fff;
+}
+#intiface-safe-sequence-drawer .if-btn-primary { background:#4f63bd; }
+#intiface-safe-sequence-drawer .if-btn-danger { background:#d94343; }
+#intiface-safe-sequence-drawer .if-btn-secondary {
+    background:rgba(255,255,255,.12); border:1px solid rgba(255,255,255,.12);
+}
+#intiface-safe-sequence-drawer .if-setting-row {
+    display:flex; align-items:center; justify-content:space-between; gap:12px;
+    margin:8px 0; font-size:13px;
+}
+#intiface-safe-sequence-drawer #ifs-devices {
+    white-space:pre-line; line-height:1.6; overflow-wrap:anywhere;
+}
+#intiface-safe-sequence-drawer #ifs-log {
+    color:#b8e6c2; white-space:pre-wrap; overflow-wrap:anywhere;
+}
